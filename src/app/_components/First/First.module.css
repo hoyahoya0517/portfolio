@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap");
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 120px;
+  color: white;
+  font-weight: 700;
+  gap: 10px;
+  padding: calc(100vw / 16) calc(100vw / 16);
+}
+/* .main > span {
+  cursor: pointer;
+} */
+.name > span {
+  cursor: pointer;
+}
+.name {
+  display: flex;
+}
+@media (max-width: 1024px) {
+  .main {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    padding: 0;
+  }
+  .main > span {
+    cursor: pointer;
+    margin: 0 24px;
+  }
+  .name {
+    display: flex;
+    margin: 0 24px;
+  }
+}
