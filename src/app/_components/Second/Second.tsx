@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import styles from "./Second.module.css";
 import { motion } from "motion/react";
 
