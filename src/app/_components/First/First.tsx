@@ -13,6 +13,7 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTap={() => setIsHoverName((prev) => !prev)}
             animate={{
               rotate: isHoverName ? 0 : -15,
               color: isHoverName ? "#d464ae" : "white",
