@@ -1,9 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import styles from "./Second.module.css";
 import { motion } from "motion/react";
 
 export default function Second() {
+  const [isTouch, setIsTouch] = useState(false);
   return (
     <div className={styles.second}>
       <div className={styles.hello}>
@@ -19,7 +21,10 @@ export default function Second() {
       <div className={styles.info}>
         <div className={styles.image}>
           <motion.div
-            whileTap={{ scale: 1.2 }}
+            onTouchStart={() => setIsTouch(true)}
+            onTouchEnd={() => setIsTouch(false)}
+            initial={{ scale: 1 }}
+            animate={{ scale: isTouch ? 1.2 : 1 }}
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             className={styles.imageMain}
