@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import styles from "./Fourth.module.css";
 import { AnimatePresence, motion, useInView } from "motion/react";
 
