@@ -44,8 +44,14 @@ export default function Fisrt() {
             G
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -57,8 +63,14 @@ export default function Fisrt() {
             E
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -70,8 +82,14 @@ export default function Fisrt() {
             O
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -83,8 +101,14 @@ export default function Fisrt() {
             N
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -96,8 +120,14 @@ export default function Fisrt() {
             H
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -109,8 +139,14 @@ export default function Fisrt() {
             O
           </motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
@@ -120,8 +156,14 @@ export default function Fisrt() {
             transition={{ duration: 0.3, ease: "easeOut" }}
           >{`'`}</motion.span>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{

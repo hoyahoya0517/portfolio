@@ -8,7 +8,6 @@ export default function Third() {
   const [width, setWidth] = useState<number>(0);
   useEffect(() => {
     const handleResize = () => {
-      console.log(window.innerWidth);
       setWidth(window.innerWidth);
     };
     window.addEventListener("resize", handleResize);
