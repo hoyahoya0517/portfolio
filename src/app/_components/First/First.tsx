@@ -26,6 +26,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : 5,
               color: isHoverName ? "#d464ae" : "white",
@@ -37,6 +39,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : -5,
               color: isHoverName ? "#d464ae" : "white",
@@ -48,6 +52,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : 4,
               color: isHoverName ? "#d464ae" : "white",
@@ -59,6 +65,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : -7,
               color: isHoverName ? "#d464ae" : "white",
@@ -70,6 +78,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : 6,
               color: isHoverName ? "#d464ae" : "white",
@@ -81,6 +91,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : 5,
               color: isHoverName ? "#d464ae" : "white",
@@ -90,6 +102,8 @@ export default function Fisrt() {
           <motion.span
             onMouseEnter={() => setIsHoverName(true)}
             onMouseLeave={() => setIsHoverName(false)}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
             animate={{
               rotate: isHoverName ? 0 : -4,
               color: isHoverName ? "#d464ae" : "white",

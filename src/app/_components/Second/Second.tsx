@@ -19,6 +19,7 @@ export default function Second() {
       <div className={styles.info}>
         <div className={styles.image}>
           <motion.div
+            whileTap={{ scale: 1.2 }}
             whileHover={{ scale: 1.2 }}
             transition={{ duration: 0.2, ease: "easeOut" }}
             className={styles.imageMain}

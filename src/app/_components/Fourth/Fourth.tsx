@@ -7,9 +7,9 @@ import { AnimatePresence, motion, useInView } from "motion/react";
 export default function Fourth() {
   const ref = useRef(null);
   const isInView = useInView(ref, { amount: 0.2 });
-  useEffect(() => {
-    console.log("Element is in view: ", isInView);
-  }, [isInView]);
+  // useEffect(() => {
+  //   console.log("Element is in view: ", isInView);
+  // }, [isInView]);
   const [isHtml, setIsHtml] = useState(false);
   const [isCss, setIsCss] = useState(false);
   const [isJs, setIsJs] = useState(false);
@@ -45,6 +45,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsHtml(true)}
                 onHoverEnd={() => setIsHtml(false)}
+                onTap={() => setIsHtml(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -57,6 +58,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsHtml(true)}
                     onHoverEnd={() => setIsHtml(false)}
+                    onTap={() => setIsHtml(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
