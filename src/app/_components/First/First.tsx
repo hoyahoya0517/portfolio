@@ -1,18 +1,38 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./First.module.css";
 import { motion } from "motion/react";
 
 export default function Fisrt() {
+  const [isMobile, setIsMobile] = useState(false);
   const [isHoverName, setIsHoverName] = useState(false);
+  useEffect(() => {
+    if (
+      navigator.userAgent.match(/Android/i) ||
+      navigator.userAgent.match(/webOS/i) ||
+      navigator.userAgent.match(/iPhone/i) ||
+      navigator.userAgent.match(/iPad/i) ||
+      navigator.userAgent.match(/iPod/i) ||
+      navigator.userAgent.match(/BlackBerry/i) ||
+      navigator.userAgent.match(/Windows Phone/i)
+    ) {
+      setIsMobile(true);
+    }
+  });
   return (
     <div className={styles.home}>
       <div className={styles.main}>
         <motion.div className={styles.name}>
           <motion.span
-            onMouseEnter={() => setIsHoverName(true)}
-            onMouseLeave={() => setIsHoverName(false)}
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
