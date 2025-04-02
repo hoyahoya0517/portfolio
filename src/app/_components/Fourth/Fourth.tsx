@@ -79,6 +79,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsCss(true)}
                 onHoverEnd={() => setIsCss(false)}
+                onTap={() => setIsCss(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -91,6 +92,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsCss(true)}
                     onHoverEnd={() => setIsCss(false)}
+                    onTap={() => setIsCss(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -111,6 +113,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsJs(true)}
                 onHoverEnd={() => setIsJs(false)}
+                onTap={() => setIsJs(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -123,6 +126,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsJs(true)}
                     onHoverEnd={() => setIsJs(false)}
+                    onTap={() => setIsJs(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -143,6 +147,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsTs(true)}
                 onHoverEnd={() => setIsTs(false)}
+                onTap={() => setIsTs(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -155,6 +160,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsTs(true)}
                     onHoverEnd={() => setIsTs(false)}
+                    onTap={() => setIsTs(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -178,6 +184,7 @@ export default function Fourth() {
                 }}
                 onHoverStart={() => setIsReact(true)}
                 onHoverEnd={() => setIsReact(false)}
+                onTap={() => setIsReact(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -190,6 +197,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsReact(true)}
                     onHoverEnd={() => setIsReact(false)}
+                    onTap={() => setIsReact(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -210,6 +218,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsReactQuery(true)}
                 onHoverEnd={() => setIsReactQuery(false)}
+                onTap={() => setIsReactQuery(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -222,6 +231,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsReactQuery(true)}
                     onHoverEnd={() => setIsReactQuery(false)}
+                    onTap={() => setIsReactQuery(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -245,6 +255,7 @@ export default function Fourth() {
                 }}
                 onHoverStart={() => setIsNext(true)}
                 onHoverEnd={() => setIsNext(false)}
+                onTap={() => setIsNext(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -257,6 +268,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsNext(true)}
                     onHoverEnd={() => setIsNext(false)}
+                    onTap={() => setIsNext(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -277,6 +289,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsZustand(true)}
                 onHoverEnd={() => setIsZustand(false)}
+                onTap={() => setIsZustand(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -289,6 +302,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsZustand(true)}
                     onHoverEnd={() => setIsZustand(false)}
+                    onTap={() => setIsZustand(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -309,6 +323,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsMotion(true)}
                 onHoverEnd={() => setIsMotion(false)}
+                onTap={() => setIsMotion(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -321,6 +336,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsMotion(true)}
                     onHoverEnd={() => setIsMotion(false)}
+                    onTap={() => setIsMotion(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -341,6 +357,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsNode(true)}
                 onHoverEnd={() => setIsNode(false)}
+                onTap={() => setIsNode(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -353,6 +370,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsNode(true)}
                     onHoverEnd={() => setIsNode(false)}
+                    onTap={() => setIsNode(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -373,6 +391,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsExpress(true)}
                 onHoverEnd={() => setIsExpress(false)}
+                onTap={() => setIsExpress(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -385,6 +404,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsExpress(true)}
                     onHoverEnd={() => setIsExpress(false)}
+                    onTap={() => setIsExpress(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -405,6 +425,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsMongo(true)}
                 onHoverEnd={() => setIsMongo(false)}
+                onTap={() => setIsMongo(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -417,6 +438,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsMongo(true)}
                     onHoverEnd={() => setIsMongo(false)}
+                    onTap={() => setIsMongo(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -437,6 +459,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsGit(true)}
                 onHoverEnd={() => setIsGit(false)}
+                onTap={() => setIsGit(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -449,6 +472,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsGit(true)}
                     onHoverEnd={() => setIsGit(false)}
+                    onTap={() => setIsGit(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -469,6 +493,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsAws(true)}
                 onHoverEnd={() => setIsAws(false)}
+                onTap={() => setIsAws(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -481,6 +506,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsAws(true)}
                     onHoverEnd={() => setIsAws(false)}
+                    onTap={() => setIsAws(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -501,6 +527,7 @@ export default function Fourth() {
                 style={{ cursor: isInView ? "pointer" : "default" }}
                 onHoverStart={() => setIsFigma(true)}
                 onHoverEnd={() => setIsFigma(false)}
+                onTap={() => setIsFigma(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
@@ -513,6 +540,7 @@ export default function Fourth() {
                   <motion.div
                     onHoverStart={() => setIsFigma(true)}
                     onHoverEnd={() => setIsFigma(false)}
+                    onTap={() => setIsFigma(false)}
                     className={styles.skillDetail}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
