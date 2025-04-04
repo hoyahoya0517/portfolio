@@ -29,7 +29,18 @@
 }
 @media (max-width: 1024px) {
   .main {
-    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    padding: 0;
+  }
+  .main > span {
+    cursor: pointer;
+    margin: 0 24px;
+  }
+  .name {
+    display: flex;
+    margin: 0 24px;
   }
 }
 
