@@ -34,7 +34,7 @@
 .flagMain {
   display: flex;
   flex-direction: row;
-  height: 100svh;
+  height: 100vh;
 }
 .english {
   flex: 1;
