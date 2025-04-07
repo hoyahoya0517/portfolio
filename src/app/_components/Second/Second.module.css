@@ -54,9 +54,27 @@
   padding: 24px;
 }
 .detailMain {
-  font-size: 17px;
+  font-size: 24px;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
 }
+.detailTop {
+}
+.detailCenter {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailCenterLine {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+.detailBottom {
+}
+
 /* 애니메이션 키프레임 정의 */
 @keyframes flowLeft {
   0% {
@@ -76,5 +94,8 @@
   }
   .detail {
     padding: 24px;
+  }
+  .detailMain {
+    font-size: 17px;
   }
 }

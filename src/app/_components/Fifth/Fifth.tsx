@@ -62,19 +62,44 @@ export default function Fifth() {
               <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991727/portfolio/port1-Photoroom_e1wb3r.png" />
             </div> */}
             <div className={styles.screenshotImg}>
-              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991829/portfolio/port2-Photoroom_jvjgj0.png" />
+              <img
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991829/portfolio/port2-Photoroom_jvjgj0.png"
+              />
             </div>
             <div className={styles.screenshotImg}>
-              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991799/portfolio/port3-Photoroom_djg4gn.png" />
+              <img
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991799/portfolio/port3-Photoroom_djg4gn.png"
+              />
             </div>
             <div className={styles.screenshotImg}>
-              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port4-Photoroom_zbpbku.png" />
+              <img
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port4-Photoroom_zbpbku.png"
+              />
             </div>
             <div className={styles.screenshotImg}>
-              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port5-Photoroom_ztmed0.png" />
+              <img
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port5-Photoroom_ztmed0.png"
+              />
             </div>
             <div className={styles.screenshotImg}>
-              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1740992220/portfolio/Group_15-Photoroom_dyemyi.png" />
+              <img
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740992220/portfolio/Group_15-Photoroom_dyemyi.png"
+              />
             </div>
           </motion.div>
           <div className={styles.menu}>
