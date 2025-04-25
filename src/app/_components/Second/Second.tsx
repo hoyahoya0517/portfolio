@@ -35,10 +35,9 @@ export default function Second() {
         <div className={styles.detail}>
           <div className={styles.detailMain}>
             <div className={styles.detailTop}>
-              <p>이름 : 이건호</p>
-              <p>이메일 : hoyahoya0517@naver.com</p>
-              <p>번호 : 01062726828</p>
-              <p>주소 : 서울시 송파구 가락동77-4</p>
+              <p>이건호</p>
+              <p>hoyahoya0517@naver.com</p>
+              <p>01062726828</p>
             </div>
             <div className={styles.detailCenter}>
               <div className={styles.detailCenterLine}></div>

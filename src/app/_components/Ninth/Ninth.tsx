@@ -14,7 +14,7 @@ export default function Ninth() {
       <div className={styles.main}>
         <div className={styles.project}>
           <div className={styles.projectTop}>
-            <p className={styles.projectTitle}>어학 자격증</p>
+            <p className={styles.projectTitle}>Certification</p>
             <p className={styles.webProject}>Language</p>
           </div>
         </div>

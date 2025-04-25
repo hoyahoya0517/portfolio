@@ -40,7 +40,7 @@
 .screenshotImg {
   display: flex;
   width: 100svw;
-  padding: 0 calc(100vw / 8);
+  padding: 0 calc(100vw / 6);
   height: auto;
 }
 .screenshot img {
@@ -90,9 +90,9 @@
   display: flex;
   flex-direction: column;
   background-color: #f5f5f7;
-  margin: 0 calc(100vw / 8);
+  margin: 0 calc(100vw / 6);
   font-size: 17px;
-  padding: calc(100vw / 16);
+  padding: calc(100vw / 18);
   border-radius: 16px;
   gap: 100px;
 }
@@ -103,11 +103,18 @@
 }
 
 @media (max-width: 1024px) {
+  .screenshotImg {
+    padding: 0 calc(100vw / 8);
+  }
   .projectTitle {
     font-size: 24px;
   }
   .webProject {
     font-size: 60px;
+  }
+  .projectBottom {
+    margin: 0 calc(100vw / 8);
+    padding: calc(100vw / 24);
   }
 }
 
