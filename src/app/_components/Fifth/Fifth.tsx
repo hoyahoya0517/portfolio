@@ -66,7 +66,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991829/portfolio/port2-Photoroom_jvjgj0.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643122/portfolio/star1_ddsvws.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -74,7 +74,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991799/portfolio/port3-Photoroom_djg4gn.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643116/portfolio/star2_clqn2d.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -82,7 +82,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port4-Photoroom_zbpbku.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643353/portfolio/star3_hbufnc.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -90,7 +90,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740991726/portfolio/port5-Photoroom_ztmed0.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643116/portfolio/star4_pax2fb.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -98,7 +98,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1740992220/portfolio/Group_15-Photoroom_dyemyi.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643112/portfolio/star5_zkh9w1.png"
               />
             </div>
           </motion.div>
@@ -107,14 +107,14 @@ export default function Fifth() {
               <RiArrowLeftSLine
                 style={{ cursor: current === 1 ? "default" : "pointer" }}
                 size={28}
-                color={current === 1 ? "#B9B9BD" : "#525253"}
+                color={current === 1 ? "#B9B9BD" : "#ffffff"}
               />
             </div>
             <div className={styles.right} onClick={handleRight}>
               <RiArrowRightSLine
                 style={{ cursor: current === 5 ? "default" : "pointer" }}
                 size={28}
-                color={current === 5 ? "#B9B9BD" : "#525253"}
+                color={current === 5 ? "#B9B9BD" : "#ffffff"}
               />
             </div>
           </div>

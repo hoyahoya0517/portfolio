@@ -36,6 +36,7 @@ export default function Second() {
           <div className={styles.detailMain}>
             <div className={styles.detailTop}>
               <p>이건호</p>
+              <p>1999.05.17</p>
               <p>hoyahoya0517@naver.com</p>
               <p>01062726828</p>
             </div>
@@ -44,7 +45,8 @@ export default function Second() {
             </div>
             <div className={styles.detailBottom}>
               <p>
-                어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구어쩌구저쩌구
+                안녕하세요, 웹 개발과 디자인, 그리고 패션을 사랑하는
+                이건호입니다.
               </p>
             </div>
           </div>

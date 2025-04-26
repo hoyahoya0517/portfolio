@@ -8,6 +8,7 @@ import Second from "./_components/Second/Second";
 import Seventh from "./_components/Seventh/Seventh";
 import Sixth from "./_components/Sixth/Sixth";
 import Third from "./_components/Third/Third";
+import Ten from "./_components/Ten/Ten";
 import styles from "./page.module.css";
 
 export default function Page() {
@@ -16,12 +17,13 @@ export default function Page() {
       <Fisrt />
       <Second />
       <Third />
-      <Fourth />
-      <Fifth />
       <Sixth />
       <Seventh />
       <Eighth />
-      <Ninth />
+      <Fourth />
+      <Fifth />
+      {/* <Ninth /> */}
+      <Ten />
       <Footer />
     </div>
   );

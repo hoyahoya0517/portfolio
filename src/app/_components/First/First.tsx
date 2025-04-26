@@ -36,7 +36,64 @@ export default function Fisrt() {
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
-              rotate: isHoverName ? 0 : -15,
+              rotate: isHoverName ? 0 : 3,
+              color: isHoverName ? "#d464ae" : "white",
+            }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
+            L
+          </motion.span>
+          <motion.span
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
+            animate={{
+              rotate: isHoverName ? 0 : -5,
+              color: isHoverName ? "#d464ae" : "white",
+            }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
+            E
+          </motion.span>
+          <motion.span
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
+            animate={{
+              rotate: isHoverName ? 0 : 6,
+              color: isHoverName ? "#d464ae" : "white",
+            }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
+            E
+          </motion.span>
+          <motion.span
+            onMouseEnter={() => {
+              if (isMobile) return;
+              setIsHoverName(true);
+            }}
+            onMouseLeave={() => {
+              if (isMobile) return;
+              setIsHoverName(false);
+            }}
+            onTouchStart={() => setIsHoverName(true)}
+            onTouchEnd={() => setIsHoverName(false)}
+            animate={{
+              rotate: isHoverName ? 0 : -5,
               color: isHoverName ? "#d464ae" : "white",
             }}
             transition={{ duration: 0.3, ease: "easeOut" }}
@@ -55,7 +112,7 @@ export default function Fisrt() {
             onTouchStart={() => setIsHoverName(true)}
             onTouchEnd={() => setIsHoverName(false)}
             animate={{
-              rotate: isHoverName ? 0 : 5,
+              rotate: isHoverName ? 0 : 2.5,
               color: isHoverName ? "#d464ae" : "white",
             }}
             transition={{ duration: 0.3, ease: "easeOut" }}
@@ -138,44 +195,8 @@ export default function Fisrt() {
           >
             O
           </motion.span>
-          <motion.span
-            onMouseEnter={() => {
-              if (isMobile) return;
-              setIsHoverName(true);
-            }}
-            onMouseLeave={() => {
-              if (isMobile) return;
-              setIsHoverName(false);
-            }}
-            onTouchStart={() => setIsHoverName(true)}
-            onTouchEnd={() => setIsHoverName(false)}
-            animate={{
-              rotate: isHoverName ? 0 : 5,
-              color: isHoverName ? "#d464ae" : "white",
-            }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
-          >{`'`}</motion.span>
-          <motion.span
-            onMouseEnter={() => {
-              if (isMobile) return;
-              setIsHoverName(true);
-            }}
-            onMouseLeave={() => {
-              if (isMobile) return;
-              setIsHoverName(false);
-            }}
-            onTouchStart={() => setIsHoverName(true)}
-            onTouchEnd={() => setIsHoverName(false)}
-            animate={{
-              rotate: isHoverName ? 0 : -4,
-              color: isHoverName ? "#d464ae" : "white",
-            }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
-          >
-            S
-          </motion.span>
         </motion.div>
-        <span>PORTFOLIO</span>
+        <span className={styles.portfolio}>PORTFOLIO</span>
       </div>
     </div>
   );

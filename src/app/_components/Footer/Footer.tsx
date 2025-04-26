@@ -5,7 +5,7 @@ export default function Footer() {
     <div className={styles.footer}>
       <div className={styles.main}>
         <div className={styles.copyright}>
-          <span>Copyright © 2025 Geon Ho Lee. 모든 권리 보유.</span>
+          <span>Copyright © 2025 GeonHo Lee. 모든 권리 보유.</span>
         </div>
       </div>
     </div>

@@ -89,6 +89,7 @@ export default function Third() {
             >
               <p className={styles.year}>2023.01 - 2023.06</p>
               <p>원더플레이스</p>
+              <p>정규직 STAFF</p>
             </motion.div>
           </div>
           <div className={styles.center}>
@@ -113,6 +114,7 @@ export default function Third() {
               >
                 <p className={styles.year}>2023.01 - 2023.06</p>
                 <p>원더플레이스</p>
+                <p>정규직 STAFF</p>
               </motion.div>
             )}
           </div>
@@ -141,6 +143,7 @@ export default function Third() {
             >
               <p className={styles.year}>2023.07 - 2024.12</p>
               <p>유니클로</p>
+              <p>니트 부문 담당자</p>
             </motion.div>
           </div>
         </div>
@@ -183,7 +186,8 @@ export default function Third() {
               className={styles.info}
             >
               <p className={styles.year}>2025.01</p>
-              <p>COS 세일즈 어드바이저</p>
+              <p>COS</p>
+              <p>세일즈 어드바이저</p>
             </motion.div>
           </div>
           <div className={styles.center}>
@@ -207,7 +211,8 @@ export default function Third() {
                 className={styles.info}
               >
                 <p className={styles.year}>2025.01</p>
-                <p>COS 세일즈 어드바이저</p>
+                <p>COS</p>
+                <p>세일즈 어드바이저</p>
               </motion.div>
             )}
           </div>

@@ -1,4 +1,4 @@
-.ninth {
+.ten {
   width: 100%;
   min-height: 100svh;
   height: auto;
@@ -36,9 +36,6 @@
   flex-direction: row;
   height: 100vh;
 }
-.english {
-  flex: 1;
-}
 .japan {
   flex: 1;
 }
@@ -48,7 +45,7 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 80px;
+  font-size: 96px;
   position: relative;
 }
 .certificate > span {

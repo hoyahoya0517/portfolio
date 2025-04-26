@@ -11,7 +11,7 @@
 .title {
   display: flex;
   flex-direction: column;
-  margin: 0 calc(100vw / 8);
+  margin: 0 calc(100vw / 12);
 }
 .projectTitle {
   font-size: 24px;
@@ -19,7 +19,7 @@
 }
 .webProject {
   font-size: 80px;
-  color: #7c1b25;
+  color: #ffe107;
   margin: 8px 0;
 }
 .projectInfo {
@@ -31,7 +31,7 @@
   font-size: 17px;
   display: flex;
   flex-direction: column;
-  margin: 0 calc(100vw / 8);
+  margin: 0 calc(100vw / 12);
   gap: 40px;
 }
 .careerInfo {
