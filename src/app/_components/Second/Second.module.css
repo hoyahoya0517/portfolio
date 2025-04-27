@@ -24,11 +24,12 @@
 .info {
   width: 100%;
   flex: 1;
+  flex-basis: 50%;
   display: flex;
   flex-direction: row;
 }
 .image {
-  flex: 1;
+  flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,18 +47,23 @@
   cursor: pointer;
 }
 .detail {
-  flex: 1;
+  flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 96px;
+  padding: 48px;
 }
 .detailMain {
   width: 100%;
-  font-size: 24px;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--gray-color);
   line-height: 1.6;
   display: flex;
   flex-direction: column;
+}
+.detailMain strong {
+  color: rgb(29, 29, 31);
 }
 .detailTop {
 }
@@ -87,6 +93,9 @@
 }
 
 @media (max-width: 1024px) {
+  .detail {
+    padding: 36px;
+  }
 }
 
 @media (max-width: 768px) {

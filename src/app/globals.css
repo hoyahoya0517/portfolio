@@ -20,6 +20,9 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  --gray-color: #5b5b61;
+  --strong-color: rgb(29, 29, 31);
 }
 a {
   color: #000000;

@@ -171,7 +171,7 @@ export default function Third() {
             >
               <p className={styles.year}>2024.06</p>
               <p>스타스프레이</p>
-              <p>자사 소품샵 개발 및 운영</p>
+              <p>소품샵 개발 및 운영</p>
             </motion.div>
           </div>
         </div>

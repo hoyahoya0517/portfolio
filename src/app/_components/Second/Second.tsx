@@ -35,18 +35,23 @@ export default function Second() {
         <div className={styles.detail}>
           <div className={styles.detailMain}>
             <div className={styles.detailTop}>
-              <p>이건호</p>
-              <p>1999.05.17</p>
-              <p>hoyahoya0517@naver.com</p>
-              <p>01062726828</p>
+              <p>
+                Name : <strong>이건호</strong>
+              </p>
+              <p>Birth : 1999.05.17</p>
+              <p>Email : hoyahoya0517@naver.com</p>
+              <p>Phone : 01062726828</p>
             </div>
             <div className={styles.detailCenter}>
               <div className={styles.detailCenterLine}></div>
             </div>
             <div className={styles.detailBottom}>
               <p>
-                안녕하세요, 웹 개발과 디자인, 그리고 패션을 사랑하는
-                이건호입니다.
+                저는 기술과 미적 감각을 바탕으로,{" "}
+                <strong>사용자에게 새로운 경험</strong>을 제안하는 데 관심이
+                많습니다. 웹사이트 제작과 디자인 작업을 넘어,{" "}
+                <strong>패션</strong>이라는 문화적 코드를 디지털 안에서 풀어내는
+                일에 흥미를 느끼고 있습니다.
               </p>
             </div>
           </div>

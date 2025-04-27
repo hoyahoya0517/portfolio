@@ -15,7 +15,8 @@
 }
 .projectTitle {
   font-size: 24px;
-  color: #6e6e73;
+  font-weight: 700;
+  color: var(--gray-color);
 }
 .webProject {
   font-size: 80px;
@@ -25,23 +26,27 @@
 .projectInfo {
   font-size: 24px;
   margin-bottom: 60px;
-  color: #6e6e73;
+  color: var(--gray-color);
+  font-weight: 700;
 }
 .career {
-  font-size: 17px;
+  font-size: 19px;
   display: flex;
   flex-direction: column;
   margin: 0 calc(100vw / 12);
-  gap: 40px;
+  gap: 60px;
+  color: var(--gray-color);
 }
 .careerInfo {
   gap: 13px;
   display: flex;
   flex-direction: column;
+  font-weight: 700;
+  line-height: 1.6;
 }
 .careerInfo > p:nth-child(1) {
   font-size: 24px;
-  font-weight: 700;
+  color: var(--strong-color);
 }
 
 @media (max-width: 1024px) {

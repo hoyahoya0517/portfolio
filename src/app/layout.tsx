@@ -15,15 +15,35 @@ const font = Noto_Sans_KR({
   display: "swap",
 });
 
-const helvetica = localFont({
+// const helvetica = localFont({
+//   src: [
+//     {
+//       path: "../../public/fonts/Helvetica.ttf",
+//       weight: "400",
+//       style: "normal",
+//     },
+//     {
+//       path: "../../public/fonts/Helvetica-Bold.ttf",
+//       weight: "700",
+//       style: "normal",
+//     },
+//   ],
+// });
+
+const sfPro = localFont({
   src: [
     {
-      path: "../../public/fonts/Helvetica.ttf",
+      path: "../../public/fonts/SFPRODISPLAYREGULAR.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../../public/fonts/Helvetica-Bold.ttf",
+      path: "../../public/fonts/SFPRODISPLAYMEDIUM.otf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/SFPRODISPLAYBOLD.otf",
       weight: "700",
       style: "normal",
     },
@@ -37,9 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className={`${helvetica.className} ${font.className}`}>
-        {children}
-      </body>
+      <body className={`${sfPro.className} ${font.className}`}>{children}</body>
     </html>
   );
 }

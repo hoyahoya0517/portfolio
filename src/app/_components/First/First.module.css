@@ -11,66 +11,56 @@
   justify-content: flex-start;
   align-items: flex-start;
   font-size: 160px;
-  color: white;
+  font-weight: 400;
+  color: #f5f5f7;
   gap: 10px;
   padding: calc(100vw / 16) calc(100vw / 16);
 }
 /* .main > span {
   cursor: pointer;
 } */
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 .name > span {
   cursor: pointer;
 }
 .name {
   display: flex;
+  color: #d464ae;
 }
 .portfolio {
-  letter-spacing: 11.4px;
+  letter-spacing: 10.3px;
 }
 @media (max-width: 1200px) {
   .main {
     font-size: 140px;
   }
   .portfolio {
-    letter-spacing: 9.8px;
+    letter-spacing: 9.2px;
   }
 }
 @media (max-width: 1024px) {
   .main {
-    justify-content: center;
-    align-items: center;
-    font-size: 112px;
-    padding: 0;
+    font-size: 120px;
   }
   .portfolio {
-    letter-spacing: 9px;
-  }
-  .main > span {
-    cursor: pointer;
-    margin: 0 24px;
-  }
-  .name {
-    display: flex;
-    margin: 0 24px;
+    letter-spacing: 8px;
   }
 }
 
 @media (max-width: 768px) {
   .main {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 55px;
-    padding: 0;
+    padding: calc(100vh / 4) 0 0 16px;
   }
+
   .portfolio {
-    letter-spacing: 4.4px;
-  }
-  .main > span {
-    cursor: pointer;
-    margin: 0 24px;
-  }
-  .name {
-    display: flex;
-    margin: 0 24px;
+    letter-spacing: 3.6px;
   }
 }

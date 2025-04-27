@@ -10,7 +10,7 @@
 }
 .thrid1 {
   width: 100%;
-  height: 500px;
+  height: 350px;
   display: flex;
   flex-direction: row;
 }
@@ -60,12 +60,20 @@
   font-size: 48px;
   color: #d464ae;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .main {
-    padding: 150px calc(100vw / 12);
+    padding: 150px calc(100vw / 16);
   }
   .center {
     flex-basis: calc(100vw / 6);
+  }
+}
+@media (max-width: 1200px) {
+  .main {
+    padding: 150px calc(100vw / 16);
+  }
+  .center {
+    flex-basis: calc(100vw / 4);
   }
   .info {
     font-size: 36px;
