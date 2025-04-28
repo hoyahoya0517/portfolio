@@ -40,7 +40,7 @@ export default function Second() {
               </p>
               <p>Birth : 1999.05.17</p>
               <p>Email : hoyahoya0517@naver.com</p>
-              <p>Email : hoyahoya0517@naver.com</p>
+              <p>Phone : 010-6272-6828</p>
             </div>
             <div className={styles.detailCenter}>
               <div className={styles.detailCenterLine}></div>
