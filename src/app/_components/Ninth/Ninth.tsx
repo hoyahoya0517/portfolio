@@ -49,7 +49,7 @@ export default function Ninth() {
                     className={styles.englishBoxMain}
                   >
                     <div className={styles.boxTop}>
-                      <p className={styles.date}>2024.07.07</p>
+                      <p className={styles.date}>2022.01.13</p>
                       <p className={styles.title}>JLPT N2</p>
                       <p>일상 대화 가능</p>
                       <p>비지니스 대화 가능</p>

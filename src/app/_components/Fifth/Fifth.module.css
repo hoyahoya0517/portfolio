@@ -111,7 +111,28 @@
   flex-direction: column;
   gap: 16px;
 }
-
+.link strong {
+  cursor: pointer;
+  text-decoration: underline;
+}
+/* .careerInfoButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 32px;
+}
+.careerInfoButton > button {
+  border: 0;
+  background: none;
+  display: flex;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  background-color: transparent;
+}
+.careerInfoButton > button > img {
+  width: 50%;
+} */
 @media (max-width: 1024px) {
   .screenshotImg {
     padding: 0 calc(100vw / 8);

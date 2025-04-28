@@ -48,10 +48,14 @@ export default function Ten() {
                     className={styles.japanBoxMain}
                   >
                     <div className={styles.boxTop}>
-                      <p className={styles.date}>2024.07.07</p>
+                      <p className={styles.date}>2022.01.13</p>
                       <p className={styles.title}>JLPT N2</p>
-                      <p>일상 대화 가능</p>
-                      <p>비지니스 대화 가능</p>
+                      <p className={styles.info}>
+                        일본 문화와 언어에 대한 깊은 관심으로 매일 일본어를
+                        꾸준히 공부하고 있으며, JLPT N2 자격증을 취득했습니다.
+                        현재 일상 대화는 물론, 비즈니스 상황에서도 자연스럽게
+                        일본어를 사용할 수 있는 수준을 유지하고 있습니다.
+                      </p>
                     </div>
                   </motion.div>
                 )}

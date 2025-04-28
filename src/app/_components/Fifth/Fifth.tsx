@@ -62,7 +62,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643122/portfolio/star1_ddsvws.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745807560/portfolio/star2-1_tpdcj1.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -70,7 +70,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643116/portfolio/star2_clqn2d.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745807561/portfolio/star2-2_jnpv18.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -78,7 +78,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643353/portfolio/star3_hbufnc.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745807556/portfolio/star2-3_djwaff.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -86,7 +86,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643116/portfolio/star4_pax2fb.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745807556/portfolio/star2-4_m9qlv2.png"
               />
             </div>
             <div className={styles.screenshotImg}>
@@ -94,7 +94,7 @@ export default function Fifth() {
                 onClick={() => {
                   window.open("https://www.star-spray.com/");
                 }}
-                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745643112/portfolio/star5_zkh9w1.png"
+                src="https://res.cloudinary.com/hoyahoya/image/upload/v1745807553/portfolio/star2-5_vqoupz.png"
               />
             </div>
           </motion.div>
@@ -114,9 +114,27 @@ export default function Fifth() {
               />
             </div>
           </div>
+          {/* <div className={styles.careerInfoButton}>
+            <button
+              onClick={() => {
+                window.open("https://www.star-spray.com/");
+              }}
+            >
+              <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1745774951/portfolio/enter_rcbvoh.png" />
+            </button>
+          </div> */}
         </div>
         <div className={styles.projectBottom}>
           <div className={styles.projectBottomInfo}>
+            <p className={styles.link}>
+              <strong
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+              >
+                #Link
+              </strong>
+            </p>
             <p>
               스타스프레이는 지금까지 배운 모든 기술을 활용해 처음부터 끝까지{" "}
               <strong>혼자 작업하여 완성</strong>한 프로젝트입니다.
@@ -126,15 +144,15 @@ export default function Fifth() {
               시작했습니다.
               <br /> 평소 디자인에 대한 깊은 관심을 바탕으로, 일반적인
               쇼핑몰과는 차별화된 독특하고 감각적인 비주얼을 구현하기 위해 많은
-              고민을 거듭했습니다. 특히 일본 문화와 소품에 대한 깊은 애정으로,
-              일본 현지 온라인 쇼핑몰에서 직접 상품을 소싱하여{" "}
+              고민을 거듭했습니다. 특히 일본 문화에 대한 깊은 애정으로, 일본
+              현지 온라인 쇼핑몰에서 직접 상품을 소싱하여{" "}
               <strong>실제로 판매까지 연결</strong>하는 과정을 경험했습니다.
             </p>
           </div>
           <div className={styles.projectBottomInfo}>
             <p>
               기술스택(<strong>프론트엔드</strong>) : TypeScript, Next.js, React
-              Query, Zustand, Motion
+              Query, Zustand, Motion, Auth.js
             </p>
             <p>
               기술스택(<strong>백엔드</strong>) : Node.js, Express.js, MongoDB,
@@ -143,50 +161,58 @@ export default function Fifth() {
           </div>
           <div className={styles.projectBottomInfo}>
             <p>
-              프론트엔드는 SEO를보다 효율적으로 적용하기 위해 Next.js를
-              선택하고, 코드 안정성을 위해 TypeScript를 도입했습니다. CSR과
-              SSR을 상황에 맞게 유연하게 활용하기 위해 레이아웃을 구분해
-              설계하였고, 서버에서 가져오는 데이터를 효율적으로 관리하기 위해
-              React Query를 적용했습니다.
+              프론트엔드는 <strong>SEO</strong>를보다 효율적으로 적용하기 위해
+              <strong>Next.js</strong>를 선택하고, 코드 안정성을 위해
+              <strong>TypeScript</strong>를 도입했습니다. <strong>CSR</strong>과{" "}
+              <strong>SSR</strong>을 상황에 맞게 유연하게 활용하기 위해
+              레이아웃을 구분해 설계하였고, 서버에서 가져오는 데이터를
+              효율적으로 관리하기 위해 <strong>React Query</strong>를
+              적용했습니다.
             </p>
             <p>
-              백엔드에서는 REST API를 완성도 있게 구축하기 위해 Node.js와
-              Express.js를 깊이 이해하는 데 집중했습니다. 특히 백엔드는
-              프론트엔드에 비해 구조적 복잡성과 데이터 흐름 관리가 훨씬 어렵게
-              느껴졌기 때문에, 초기에는 이해에 많은 어려움을 겪었지만 이를
-              극복하기 위해 개념 학습과 실습을 반복하며 꾸준히 노력했습니다.
-              또한 로그인 및 사용자 인증 과정에서 발생할 수 있는 보안 문제를
-              해결하기 위해 bcrypt, cookie, cors 등 다양한 보안 관련 기술을
-              학습하고 적용했습니다. 로그인 기능은 프로젝트 중 가장 높은
+              백엔드에서는 REST API를 완성도 있게 구축하기 위해{" "}
+              <strong>Node.js</strong>와 <strong>Express.js</strong>를 깊이
+              이해하는 데 집중했습니다. 특히 백엔드는 프론트엔드에 비해 구조적
+              복잡성과 데이터 흐름 관리가 훨씬 어렵게 느껴졌기 때문에, 초기에는
+              이해에 많은 어려움을 겪었지만 이를 극복하기 위해 개념 학습과
+              실습을 반복하며 꾸준히 노력했습니다. 또한 로그인 및 사용자 인증
+              과정에서 발생할 수 있는 보안 문제를 해결하기 위해{" "}
+              <strong>Bcrypt</strong>, <strong>Cookie</strong>,{" "}
+              <strong>Cors</strong> 등 다양한 보안 관련 기술을 학습하고
+              적용했으며, 사용자 인증을 위해 <strong>JWT</strong>를 도입하여
+              로그인 시 토큰을 발급하고, 이를 헤더에 담아 처리하는 구조로
+              보안성을 강화했습니다. 로그인 기능은 프로젝트 중 가장 높은
               난이도를 가진 부분 중 하나였지만, 프론트엔드와 백엔드 모두를
               다각도로 공부하며 안전하고 완성도 높은 인증 구조를 구축했고,
-              Next.js에서 널리 사용되는 Auth.js를 도입해 인증 시스템을
-              강화했습니다.
+              Next.js에서 널리 사용되는 <strong>Auth.js</strong>를 도입해 인증
+              시스템을 강화했습니다.
             </p>
             <p>
               결제 시스템 역시 실제 사용을 목표로 다양한 서비스를
-              테스트했습니다. PortOne, Toss 등 여러 결제 서비스를 비교 검토한
-              결과, PortOne을 통해 결제 기능을 구현하여 안정적인 거래가
-              가능하도록 설정했습니다.
+              테스트했습니다. <strong>PortOne</strong>, <strong>Toss</strong> 등
+              여러 결제 서비스를 비교 검토한 결과, <strong>PortOne</strong>을
+              통해 결제 기능을 구현하여 안정적인 거래가 가능하도록 설정했습니다.
             </p>
             <p>
-              배포 과정에서는 처음 AWS를 이용해 프론트엔드와 백엔드 모두
-              배포하며 인프라 구축 경험을 쌓았지만, 1인 프로젝트 규모에 맞는
-              효율성을 고려해, 이후 프론트엔드는 Vercel에, 백엔드는 Cloudtype에
+              배포 과정에서는 처음 <strong>AWS</strong>를 이용해 프론트엔드와
+              백엔드 모두 배포하며 인프라 구축 경험을 쌓았지만, 1인 프로젝트
+              규모에 맞는 효율성을 고려해, 이후 프론트엔드는{" "}
+              <strong>Vercel</strong>에, 백엔드는 <strong>Cloudtype</strong>에{" "}
               각각 최적화하여 분리 배포하는 전략을 사용했습니다.
             </p>
             <p>
               개발뿐 아니라, 평소 패션과 디자인에 대한 깊은 관심을 살려 평범한
-              쇼핑몰이 아닌 독특하고 감각적인 사이트를 만들고자 했고 이를 위해
-              Figma를 활용해 디자인 기획부터 UI/UX 구성까지 스스로 고민하며,
-              사용자 경험을 고려한 차별화된 비주얼을 완성했습니다.
+              사이트가 아닌 독특하고 감각적인 사이트를 만들고자 했고 이를 위해
+              <strong>Figma</strong>를 활용해 디자인 기획부터{" "}
+              <strong>UI/UX</strong> 구성까지 스스로 고민하며, 사용자 경험을
+              고려한 차별화된 비주얼을 완성했습니다.
             </p>
             <p>
               이 프로젝트를 통해 프론트엔드와 백엔드를 연결하는 과정은 물론,
-              실제 상품 판매까지 이어지는 전 과정을 직접 경험할 수 있었습니다.
-              비록 규모는 작았지만, 웹 개발부터 서비스 운영, 비즈니스 실현까지
-              모든 흐름을 스스로 체험하며 실질적인 성장을 이룰 수 있던 소중한
-              경험이었습니다.
+              실제 상품 판매까지 이어지는 <strong>전 과정을 직접 경험</strong>할
+              수 있었습니다. 비록 규모는 작았지만, 웹 개발부터 서비스 운영,
+              비즈니스 실현까지 <strong>모든 흐름</strong>을 스스로 체험하며
+              실질적인 성장을 이룰 수 있던 소중한 경험이었습니다.
             </p>
           </div>
         </div>
