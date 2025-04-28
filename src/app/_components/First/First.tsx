@@ -57,7 +57,7 @@ export default function Fisrt() {
               onTouchEnd={() => setIsHoverName(false)}
               animate={{
                 rotate: isHoverName ? -5 : 0,
-                color: isHoverName ? "#f5f5f7 " : "#d464ae",
+                color: isHoverName ? "#f5f5f7" : "#d464ae",
               }}
               transition={{ duration: 0.3, ease: "easeOut" }}
             >

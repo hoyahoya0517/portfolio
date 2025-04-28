@@ -103,7 +103,11 @@
     flex-direction: column;
   }
   .detail {
-    padding: 24px;
+    padding: 36px 24px 0 24px;
+  }
+  .imageMain {
+    width: 200px;
+    height: 200px;
   }
   .detailMain {
     font-size: 17px;
