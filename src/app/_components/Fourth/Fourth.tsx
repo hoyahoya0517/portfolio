@@ -211,9 +211,9 @@ export default function Fourth() {
                   >
                     <motion.span className={styles.skillInfo}>
                       React의 컴포넌트 기반 구조와 문법을 정확히 이해하고
-                      있으며, SPA(Single Page Application) 방식과 React의 작동
-                      원리(가상 DOM, 렌더링 최적화 등)에 대한 깊은 이해를
-                      바탕으로 다양한 프로젝트를 구현했습니다.
+                      있으며, SPA 방식과 React의 작동 원리(가상 DOM, 렌더링
+                      최적화 등)에 대한 깊은 이해를 바탕으로 다양한 프로젝트를
+                      구현했습니다.
                     </motion.span>
                   </motion.div>
                 )}

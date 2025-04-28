@@ -89,7 +89,7 @@ export default function Third() {
             >
               <p className={styles.year}>2023.01 - 2023.06</p>
               <p>원더플레이스</p>
-              <p>정규직 STAFF</p>
+              <p>STAFF</p>
             </motion.div>
           </div>
           <div className={styles.center}>
@@ -114,7 +114,7 @@ export default function Third() {
               >
                 <p className={styles.year}>2023.01 - 2023.06</p>
                 <p>원더플레이스</p>
-                <p>정규직 STAFF</p>
+                <p>STAFF</p>
               </motion.div>
             )}
           </div>
