@@ -152,7 +152,7 @@ export default function Fifth() {
           <div className={styles.projectBottomInfo}>
             <p>
               기술스택(<strong>프론트엔드</strong>) : TypeScript, Next.js, React
-              Query, Zustand, Motion, Auth.js
+              Query, Zustand, Motion, Auth.js, Google Analytics
             </p>
             <p>
               기술스택(<strong>백엔드</strong>) : Node.js, Express.js, MongoDB,
