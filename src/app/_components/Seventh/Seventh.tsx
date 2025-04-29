@@ -20,6 +20,15 @@ export default function Seventh() {
               Star Spray
             </motion.p>
             <p className={styles.projectInfo}>근무기간 : 2024.06</p>
+            <p className={styles.link}>
+              <strong
+                onClick={() => {
+                  window.open("https://www.star-spray.com/");
+                }}
+              >
+                #Link
+              </strong>
+            </p>
           </div>
         </div>
         <div className={styles.career}>
@@ -42,7 +51,7 @@ export default function Seventh() {
               기본 흐름과 고객 응대 과정을 실질적으로 이해할 수 있었습니다.
             </p>
           </div>
-          <div className={styles.careerInfoButton}>
+          {/* <div className={styles.careerInfoButton}>
             <button
               onClick={() => {
                 window.open("https://www.star-spray.com/");
@@ -50,7 +59,7 @@ export default function Seventh() {
             >
               <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1745774951/portfolio/enter_rcbvoh.png" />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

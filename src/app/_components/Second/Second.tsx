@@ -29,7 +29,7 @@ export default function Second() {
             transition={{ duration: 0.2, ease: "easeOut" }}
             className={styles.imageMain}
           >
-            <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1698725818/hy/jsllzjuuuu6amda2e9jn.png" />
+            <img src="https://res.cloudinary.com/hoyahoya/image/upload/v1745928379/portfolio/KakaoTalk_Photo_2025-04-29-21-05-53_egm5ni.png" />
           </motion.div>
         </div>
         <div className={styles.detail}>

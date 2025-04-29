@@ -161,8 +161,8 @@ export default function Fifth() {
           </div>
           <div className={styles.projectBottomInfo}>
             <p>
-              프론트엔드는 <strong>SEO</strong>를보다 효율적으로 적용하기 위해
-              <strong>Next.js</strong>를 선택하고, 코드 안정성을 위해
+              프론트엔드는 <strong>SEO</strong>를보다 효율적으로 적용하기 위해{" "}
+              <strong>Next.js</strong>를 선택하고, 코드 안정성을 위해{" "}
               <strong>TypeScript</strong>를 도입했습니다. <strong>CSR</strong>과{" "}
               <strong>SSR</strong>을 상황에 맞게 유연하게 활용하기 위해
               레이아웃을 구분해 설계하였고, 서버에서 가져오는 데이터를
@@ -202,7 +202,7 @@ export default function Fifth() {
             </p>
             <p>
               개발뿐 아니라, 평소 패션과 디자인에 대한 깊은 관심을 살려 평범한
-              사이트가 아닌 독특하고 감각적인 사이트를 만들고자 했고 이를 위해
+              사이트가 아닌 독특하고 감각적인 사이트를 만들고자 했고 이를 위해{" "}
               <strong>Figma</strong>를 활용해 디자인 기획부터{" "}
               <strong>UI/UX</strong> 구성까지 스스로 고민하며, 사용자 경험을
               고려한 차별화된 비주얼을 완성했습니다.

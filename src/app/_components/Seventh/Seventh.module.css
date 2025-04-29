@@ -28,7 +28,6 @@
 }
 .projectInfo {
   font-size: 24px;
-  margin-bottom: 60px;
   color: #f5f5f7;
   font-weight: 700;
 }
@@ -64,6 +63,17 @@
 }
 .careerInfoButton > button > img {
   width: 80%;
+}
+.link {
+  margin-bottom: 60px;
+}
+
+.link strong {
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f5f5f7;
 }
 @media (max-width: 1024px) {
 }
