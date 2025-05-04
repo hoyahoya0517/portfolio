@@ -370,7 +370,7 @@ export default function Fourth() {
             </div>
           </div>
           <div className={styles.skill}>
-            <div className={styles.skillMain}>
+            <div className={styles.skillMain2}>
               <motion.span
                 // style={{ cursor: isInView ? "pointer" : "default" }}
                 // onHoverStart={() => setIsNode(true)}
