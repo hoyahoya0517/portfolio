@@ -372,10 +372,10 @@ export default function Fourth() {
           <div className={styles.skill}>
             <div className={styles.skillMain}>
               <motion.span
-                style={{ cursor: isInView ? "pointer" : "default" }}
-                onHoverStart={() => setIsNode(true)}
-                onHoverEnd={() => setIsNode(false)}
-                onTap={() => setIsNode(true)}
+                // style={{ cursor: isInView ? "pointer" : "default" }}
+                // onHoverStart={() => setIsNode(true)}
+                // onHoverEnd={() => setIsNode(false)}
+                // onTap={() => setIsNode(true)}
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.7, ease: "easeIn" }}
