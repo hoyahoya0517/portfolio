@@ -50,5 +50,5 @@ body::-webkit-scrollbar-thumb {
   background: #d464ad; /* 스크롤바 색 */
 }
 body::-webkit-scrollbar-track {
-  background: #000000; /*스크롤바 뒷 배경 색상*/
+  background: rgb(45, 45, 45); /*스크롤바 뒷 배경 색상*/
 }
