@@ -23,7 +23,6 @@ export default function SelectCard() {
         trigger: ".selectCardWrapper",
         start: "top top",
         end: `+=100%`,
-        markers: true,
         pin: true,
         scrub: 2,
       },

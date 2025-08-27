@@ -27,7 +27,6 @@ export default function Second() {
         trigger: ".secondWrapper",
         start: "top top",
         end: `+=${width * 5}`,
-        markers: true,
         pin: true,
         scrub: 2,
       },
