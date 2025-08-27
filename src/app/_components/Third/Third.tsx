@@ -143,7 +143,7 @@ export default function Third() {
             >
               <p className={styles.year}>2023.07 - 2024.12</p>
               <p>유니클로</p>
-              <p>니트 부문 담당자</p>
+              <p>니트 부문 리더</p>
             </motion.div>
           </div>
         </div>

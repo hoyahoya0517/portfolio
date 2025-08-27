@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./Sixth.module.css";
-import { motion } from "motion/react";
 
 export default function Sixth() {
   return (
@@ -10,15 +9,7 @@ export default function Sixth() {
         <div className={styles.title}>
           <div className={styles.projectTop}>
             <p className={styles.projectTitle}>Career</p>
-            <motion.p
-              initial={{ opacity: 0, x: -100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, ease: "easeOut" }}
-              viewport={{ amount: "some" }}
-              className={styles.webProject}
-            >
-              UNIQLO
-            </motion.p>
+            <p className={styles.webProject}>UNIQLO</p>
             <p className={styles.projectInfo}>
               근무기간 : 2023.07 ~ 2024.12 (1년 6개월)
             </p>

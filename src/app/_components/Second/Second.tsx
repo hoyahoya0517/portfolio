@@ -47,10 +47,10 @@ export default function Second() {
             </div>
             <div className={styles.detailBottom}>
               <p>
-                저는 기술과 미적 감각을 바탕으로,{" "}
-                <strong>사용자에게 새로운 경험</strong>을 제안하는 데 관심이
-                많습니다. 웹사이트 제작과 디자인 작업을 넘어,{" "}
-                <strong>패션</strong>이라는 문화적 코드를 디지털 안에서 풀어내는
+                저는 기술과 미적 감각을 바탕으로,
+                <strong> 사용자에게 새로운 경험</strong>을 제안하는 데 관심이
+                많습니다. 웹사이트 제작과 디자인 작업을 넘어,
+                <strong> 문화적 요소와 콘텐츠</strong>를 디지털 안에서 풀어내는
                 일에 흥미를 느끼고 있습니다.
               </p>
             </div>

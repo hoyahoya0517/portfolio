@@ -1,0 +1,119 @@
+.second {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #f5f5f7;
+  position: relative;
+  overflow: hidden;
+}
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.iam {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.iam span {
+  font-size: 120px;
+}
+.pinContainer {
+  position: relative;
+  display: flex;
+}
+.pinWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  white-space: nowrap;
+  width: 400vw;
+}
+.pinText {
+  width: 100vw;
+}
+.otherSection {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.otherSectionMain {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  position: relative;
+}
+.info2 {
+  position: absolute;
+  top: 0;
+  left: 6px;
+}
+.info2 p {
+  color: rgb(0, 0, 0);
+  font-size: 72px;
+  white-space: nowrap;
+}
+.info3 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.info3 p {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-weight: 700;
+}
+.image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 480px;
+  height: 480px;
+  z-index: 2;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hello {
+  position: absolute;
+  bottom: 0;
+  color: #d464ae;
+  min-height: 300px;
+  height: auto;
+}
+.hello > div {
+  display: flex;
+  overflow: hidden;
+}
+.hello > div > span {
+  font-size: 300px;
+  animation: flowLeft 7s linear infinite;
+  white-space: nowrap;
+}
+
+/* 애니메이션 키프레임 정의 */
+@keyframes flowLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}

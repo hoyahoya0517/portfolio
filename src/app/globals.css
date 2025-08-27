@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0px;
   padding: 0px;
@@ -39,4 +41,14 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 0;
+}
+body::-webkit-scrollbar-thumb {
+  background: #d464ad; /* 스크롤바 색 */
+}
+body::-webkit-scrollbar-track {
+  background: #000000; /*스크롤바 뒷 배경 색상*/
 }

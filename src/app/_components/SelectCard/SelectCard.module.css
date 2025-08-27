@@ -1,0 +1,181 @@
+.selectCard {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.circle {
+  z-index: 9999;
+  width: 800px;
+  height: 800px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: fixed;
+  top: 135%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease-in-out;
+}
+.circleMain {
+  position: relative;
+  width: 800px;
+  height: 800px;
+}
+.starSpray {
+  width: 200px;
+  height: 300px;
+  background: #1ba11a
+    url("https://res.cloudinary.com/hoyahoya/image/upload/v1702882191/letter/tile_vkvmea.png")
+    top left repeat;
+  background-size: 56%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+  transform: translate(300px, -200px) rotate(0deg);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.starSpray span:first-child {
+  font-size: 32px;
+  color: #ffe107;
+}
+.leeHyun {
+  width: 200px;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(calc(-50% + 318.195px), calc(-50% - 318.195px))
+    rotate(45deg);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leeHyun div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.leeHyun span {
+  line-height: 1;
+}
+.leeHyun div span:first-child {
+  font-size: 32px;
+  color: #000000;
+}
+.leeHyun div span:last-child {
+  font-size: 16px;
+  color: #000000;
+}
+.career {
+  width: 200px;
+  height: 300px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+  transform: translate(745px, 250px) rotate(90deg);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+}
+.careerMain {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.uniqlo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+  font-size: 32px;
+  color: #ffffff;
+}
+.cos {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 32px;
+  color: #000000;
+}
+.gtq {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center center;
+  transform: translate(calc(-50% + 318.195px), calc(-50% + 318.195px))
+    rotate(135deg);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #33ad54;
+}
+.gtq span:first-child {
+  font-size: 32px;
+  color: #ffffff;
+}
+.language {
+  width: 200px;
+  height: 300px;
+  background-color: #034d97;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+  transform: translate(300px, 695px) rotate(180deg);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  cursor: pointer;
+  background-color: #0065ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language span:first-child {
+  font-size: 32px;
+  color: #ffffff;
+}
+.detail {
+  width: 100%;
+  position: absolute;
+  top: -40%;
+  left: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #424245;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  white-space: nowrap;
+  cursor: default;
+}
