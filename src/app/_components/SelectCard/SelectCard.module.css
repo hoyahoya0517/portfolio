@@ -16,7 +16,7 @@
   border: 3px solid black;
   border-radius: 50%;
   position: fixed;
-  top: 137.5%;
+  top: calc(100% + 250px);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease-in-out;
@@ -178,4 +178,10 @@
   transform: translate(-50%, -50%) rotate(-90deg);
   white-space: nowrap;
   cursor: default;
+}
+
+@media (max-width: 1024px) {
+  .circle {
+    top: 120%;
+  }
 }
