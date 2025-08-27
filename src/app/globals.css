@@ -42,13 +42,13 @@ img {
   -o-user-drag: none;
   user-drag: none;
 }
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 10px;
   height: 0;
 }
 body::-webkit-scrollbar-thumb {
-  background: #d464ad; 
+  background: #d464ad; /* 스크롤바 색 */
 }
 body::-webkit-scrollbar-track {
-  background: rgb(45, 45, 45); 
-} */
+  background: rgb(45, 45, 45); /*스크롤바 뒷 배경 색상*/
+}
