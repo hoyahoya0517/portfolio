@@ -7,12 +7,12 @@ export default function FisrtVer2() {
   const [width, setWidth] = useState(0);
   useEffect(() => {
     if (typeof window !== "undefined") {
-      setWidth(window?.innerWidth - 60);
+      setWidth(window?.innerWidth - 36);
     }
     if (typeof window !== "undefined") {
       window.addEventListener("resize", () => {
         if (typeof window !== "undefined") {
-          setWidth(window?.innerWidth - 60);
+          setWidth(window?.innerWidth - 36);
         }
       });
     }
@@ -20,7 +20,7 @@ export default function FisrtVer2() {
   return (
     <div className={styles.home}>
       <div className={styles.container}>
-        <div className={styles.menu}>
+        {/* <div className={styles.menu}>
           <motion.span
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -28,13 +28,6 @@ export default function FisrtVer2() {
           >
             About
           </motion.span>
-          {/* <motion.span
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            Skills
-          </motion.span> */}
           <motion.span
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -42,7 +35,7 @@ export default function FisrtVer2() {
           >
             Projects
           </motion.span>
-        </div>
+        </div> */}
         <div className={styles.main}>
           <motion.span
             initial={{ opacity: 0 }}

@@ -8,14 +8,24 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import StarSpray from "../StarSpray/StarSpray";
 import LeeHyun from "../LeeHyun/LeeHyun";
-import Career from "../Career/Career";
+import Pika from "../Pika/Pika";
 import Gtq from "../Gtq/Gtq";
-import Jlpt from "../Jlpt/Jlpt";
+import StarSprayPage from "../StarSprayPage/StarSprayPage";
+import Language from "../Language/Language";
+import GtqPage from "../GtqPage/GtqPage";
+import LanguagePage from "../LanguagePage/LanguagePage";
+import LeeHyunPage from "../LeeHyunPage/LeeHyunPage";
+import PikaPage from "../PikaPage/PikaPage";
 
 export default function SelectCard() {
   const flagRef = useRef<HTMLDivElement>(null);
   const [scope, animate] = useAnimate();
   const [deg, setDeg] = useState(0);
+  const [starSprayPage, setStarSprayPage] = useState(false);
+  const [leeHyunPage, setLeeHyunPage] = useState(false);
+  const [pikaPage, setPikaPage] = useState(false);
+  const [gtqPage, setGtqPage] = useState(false);
+  const [languagePage, setLanguagePage] = useState(false);
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(() => {
     gsap.timeline({
@@ -31,12 +41,23 @@ export default function SelectCard() {
   useEffect(() => {}, [deg]);
   return (
     <div className={`${styles.selectCard} selectCardWrapper`} ref={flagRef}>
+      <StarSprayPage
+        starSprayPage={starSprayPage}
+        setStarSprayPage={setStarSprayPage}
+      />
+      <LeeHyunPage leeHyunPage={leeHyunPage} setLeeHyunPage={setLeeHyunPage} />
+      <PikaPage pikaPage={pikaPage} setPikaPage={setPikaPage} />
+      <GtqPage gtqPage={gtqPage} setGtqPage={setGtqPage} />
+      <LanguagePage
+        languagePage={languagePage}
+        setLanguagePage={setLanguagePage}
+      />
       <div className={styles.background}>
         {deg === 0 && <StarSpray />}
         {deg === 45 && <LeeHyun />}
-        {deg === 90 && <Career />}
+        {deg === 90 && <Pika />}
         {deg === 135 && <Gtq />}
-        {deg === 180 && <Jlpt />}
+        {deg === 180 && <Language />}
       </div>
       <motion.div
         ref={scope}
@@ -49,6 +70,13 @@ export default function SelectCard() {
           <div
             className={styles.starSpray}
             onClick={() => {
+              if (deg === 0) {
+                flagRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+                setStarSprayPage(true);
+                return;
+              }
               flagRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
@@ -57,7 +85,7 @@ export default function SelectCard() {
                 {
                   transform: `translate(-50%, -50%) rotate(0deg)`,
                 },
-                { duration: 0.5, ease: "easeInOut" }
+                { duration: 0, ease: "easeInOut" }
               );
               setDeg(0);
             }}
@@ -75,6 +103,13 @@ export default function SelectCard() {
           <div
             className={styles.leeHyun}
             onClick={() => {
+              if (deg === 45) {
+                flagRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+                setLeeHyunPage(true);
+                return;
+              }
               flagRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
@@ -83,7 +118,7 @@ export default function SelectCard() {
                 {
                   transform: `translate(-50%, -50%) rotate(-45deg)`,
                 },
-                { duration: 0.5, ease: "easeInOut" }
+                { duration: 0, ease: "easeInOut" }
               );
               setDeg(45);
             }}
@@ -102,8 +137,15 @@ export default function SelectCard() {
             </motion.span>
           </div>
           <div
-            className={styles.career}
+            className={styles.pika}
             onClick={() => {
+              if (deg === 90) {
+                flagRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+                setPikaPage(true);
+                return;
+              }
               flagRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
@@ -112,31 +154,31 @@ export default function SelectCard() {
                 {
                   transform: `translate(-50%, -50%) rotate(-90deg)`,
                 },
-                { duration: 0.5, ease: "easeInOut" }
+                { duration: 0, ease: "easeInOut" }
               );
               setDeg(90);
             }}
           >
-            <div className={styles.careerMain}>
-              <div className={styles.uniqlo}>
-                <span>UNIQLO</span>
-              </div>
-              <div className={styles.cos}>
-                <span>COS</span>
-              </div>
-            </div>
+            <span>PIKA</span>
             <motion.span
               initial={{ color: "#424245" }}
               animate={deg === 90 ? { color: "#d464ad" } : { color: "#424245" }}
               transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
               className={styles.detail}
             >
-              Career
+              Web Project
             </motion.span>
           </div>
           <div
             className={styles.gtq}
             onClick={() => {
+              if (deg === 135) {
+                flagRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+                setGtqPage(true);
+                return;
+              }
               flagRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
@@ -145,12 +187,15 @@ export default function SelectCard() {
                 {
                   transform: `translate(-50%, -50%) rotate(-135deg)`,
                 },
-                { duration: 0.5, ease: "easeInOut" }
+                { duration: 0, ease: "easeInOut" }
               );
               setDeg(135);
             }}
           >
-            <span>GTQ</span>
+            <div>
+              <span>Design &</span>
+              <span>Analytics</span>
+            </div>
             <motion.span
               initial={{ color: "#424245" }}
               animate={
@@ -165,6 +210,13 @@ export default function SelectCard() {
           <div
             className={styles.language}
             onClick={() => {
+              if (deg === 180) {
+                flagRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+                setLanguagePage(true);
+                return;
+              }
               flagRef.current?.scrollIntoView({
                 behavior: "smooth",
               });
@@ -173,12 +225,12 @@ export default function SelectCard() {
                 {
                   transform: `translate(-50%, -50%) rotate(-180deg)`,
                 },
-                { duration: 0.5, ease: "easeInOut" }
+                { duration: 0, ease: "easeInOut" }
               );
               setDeg(180);
             }}
           >
-            <span>JLPT</span>
+            <span>Language</span>
             <motion.span
               initial={{ color: "#424245" }}
               animate={
@@ -187,7 +239,7 @@ export default function SelectCard() {
               transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
               className={styles.detail}
             >
-              Language
+              Certificate
             </motion.span>
           </div>
         </div>

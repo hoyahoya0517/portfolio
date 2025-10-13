@@ -1,0 +1,21 @@
+.pika {
+  width: 100%;
+  height: 100%;
+  background: #ffffff
+    url("https://res.cloudinary.com/hoyahoya/image/upload/v1757315769/pika/pika_iijxcr.png")
+    top left repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pikaBackground {
+  width: 100%;
+  height: 100%;
+  background-color: #25232350;
+}
+@media (max-width: 768px) {
+  .pika {
+    background-size: 300%;
+  }
+}

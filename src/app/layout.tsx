@@ -5,8 +5,8 @@ import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "이건호 포트폴리오",
-  description: "이건호 포트폴리오",
+  title: "Lee GeonHo | Portfolio",
+  description: "Lee GeonHo Portfolio",
 };
 
 const font = Noto_Sans_KR({

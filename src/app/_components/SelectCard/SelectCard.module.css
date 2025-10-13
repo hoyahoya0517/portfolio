@@ -10,13 +10,14 @@
   position: relative;
 }
 .circle {
-  z-index: 9999;
+  z-index: 1111;
   width: 800px;
   height: 800px;
   border: 3px solid black;
   border-radius: 50%;
   position: fixed;
-  top: calc(100% + 250px);
+  /* top: calc(100% + 250px); */
+  top: calc(100% + 400px - 200px);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.5s ease-in-out;
@@ -58,7 +59,7 @@
   top: 50%;
   left: 50%;
   transform-origin: center center;
-  transform: translate(calc(-50% + 318.195px), calc(-50% - 318.195px))
+  transform: translate(calc(-50% + 313.195px), calc(-50% - 313.195px))
     rotate(45deg);
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
@@ -78,17 +79,17 @@
   line-height: 1;
 }
 .leeHyun div span:first-child {
-  font-size: 32px;
+  font-size: 38px;
   color: #000000;
 }
 .leeHyun div span:last-child {
   font-size: 16px;
   color: #000000;
 }
-.career {
+.pika {
   width: 200px;
   height: 300px;
-  background-color: #ff0000;
+  background-color: #d464ad;
   position: absolute;
   top: 0;
   left: 0;
@@ -98,30 +99,13 @@
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   cursor: pointer;
-}
-.careerMain {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-}
-.uniqlo {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff0000;
-  font-size: 32px;
-  color: #ffffff;
 }
-.cos {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  font-size: 32px;
-  color: #000000;
+.pika span:first-child {
+  font-size: 36px;
+  color: white;
 }
 .gtq {
   width: 200px;
@@ -130,7 +114,7 @@
   top: 50%;
   left: 50%;
   transform-origin: center center;
-  transform: translate(calc(-50% + 318.195px), calc(-50% + 318.195px))
+  transform: translate(calc(-50% + 313.195px), calc(-50% + 313.195px))
     rotate(135deg);
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
@@ -139,26 +123,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #33ad54;
+  background-color: #f8bf00;
 }
-.gtq span:first-child {
+.gtq div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+}
+.gtq div span {
+  line-height: 1;
   font-size: 32px;
   color: #ffffff;
 }
+
 .language {
   width: 200px;
   height: 300px;
-  background-color: #034d97;
+  background-color: #3aadd3;
   position: absolute;
   top: 0;
   left: 0;
   transform-origin: center center;
   transform: translate(300px, 695px) rotate(180deg);
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
-    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
-    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  box-shadow: rgba(242, 118, 118, 0.07) 0px 1px 2px,
+    rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px,
+    rgba(0, 0, 0, 0.07) 0px 32px 64px;
   cursor: pointer;
-  background-color: #0065ff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,11 +170,15 @@
   color: #424245;
   transform: translate(-50%, -50%) rotate(-90deg);
   white-space: nowrap;
-  cursor: default;
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
   .circle {
-    top: 120%;
+  }
+}
+@media (max-width: 768px) {
+  .circle {
+    top: calc(100% + 400px - 200px);
   }
 }

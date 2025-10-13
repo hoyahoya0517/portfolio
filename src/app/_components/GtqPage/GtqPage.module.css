@@ -1,0 +1,179 @@
+.gtqPageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #252323b0;
+  z-index: 2222;
+}
+.gtqPage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+.close {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  z-index: 9999;
+}
+.close span {
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+}
+.left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.gtqLogo img {
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.isGtq {
+  width: 100%;
+  height: 100%;
+  background-color: #00904b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.isGtqMain {
+  display: flex;
+  flex-direction: column;
+}
+.isGtqMain h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+  line-height: 1;
+}
+.isGtqMain span {
+  font-size: 16px;
+  color: #ffffff;
+}
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.gtqiLogo img {
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.isGtqI {
+  width: 100%;
+  height: 100%;
+  background-color: #492f91;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.isGtqIMain {
+  display: flex;
+  flex-direction: column;
+}
+.isGtqIMain h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 16px;
+  line-height: 1;
+}
+.isGtqIMain span {
+  font-size: 16px;
+  color: #ffffff;
+}
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.googleLogo img {
+  height: 100px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.isGoogle {
+  width: 100%;
+  height: 100%;
+  background-color: #f8ac00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.isGoogleMain {
+  display: flex;
+  flex-direction: column;
+}
+.isGoogleMain h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1;
+}
+.isGoogleMain h1:nth-child(2) {
+  margin-bottom: 16px;
+}
+.isGoogleMain span {
+  font-size: 16px;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .gtqPage {
+    flex-direction: column;
+  }
+  .gtqLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px;
+  }
+  .gtqLogo img {
+    height: 100%;
+    width: 100%;
+  }
+  .gtqiLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px;
+  }
+  .gtqiLogo img {
+    height: 100%;
+    width: 100%;
+  }
+  .googleLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 36px;
+  }
+  .googleLogo img {
+    height: 100%;
+    width: 100%;
+  }
+}

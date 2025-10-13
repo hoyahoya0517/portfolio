@@ -1,11 +1,11 @@
-import styles from "./Jlpt.module.css";
+import styles from "./Pika.module.css";
 import { motion } from "motion/react";
 
-export default function Jlpt() {
+export default function Pika() {
   return (
-    <div className={styles.jlpt}>
+    <div className={styles.pika}>
       <motion.div
-        className={styles.jlptMain}
+        className={styles.pikaBackground}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ amount: "some" }}
