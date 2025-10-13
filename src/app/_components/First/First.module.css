@@ -57,7 +57,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     font-size: 60px;
-    padding: calc(100vh / 4) 0 0 16px;
+    padding: calc(100svh / 4) 0 0 16px;
   }
 
   .portfolio {
