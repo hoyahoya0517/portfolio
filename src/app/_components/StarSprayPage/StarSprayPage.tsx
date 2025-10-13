@@ -57,29 +57,16 @@ export default function StarSprayPage({
               }}
             ></div>
             <div className={styles.starSprayPage}>
-              {width && width <= 768 && (
-                <div className={styles.closeButton}>
-                  <span
-                    onClick={() => {
-                      setStarSprayPage(false);
-                    }}
-                  >
-                    CLOSE
-                  </span>
-                </div>
-              )}
+              <div className={styles.closeButton}>
+                <span
+                  onClick={() => {
+                    setStarSprayPage(false);
+                  }}
+                >
+                  CLOSE
+                </span>
+              </div>
               <div className={styles.left}>
-                {width && width > 768 && (
-                  <div className={styles.top}>
-                    <span
-                      onClick={() => {
-                        setStarSprayPage(false);
-                      }}
-                    >
-                      CLOSE
-                    </span>
-                  </div>
-                )}
                 <div className={styles.main}>
                   <div className={styles.mainTop}>
                     <span>STAR SPRAY</span>

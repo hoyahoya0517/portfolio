@@ -10,8 +10,8 @@ import Footer from "./_components/Footer/Footer";
 // import Third from "./_components/Third/Third";
 // import Ten from "./_components/Ten/Ten";
 import styles from "./page.module.css";
-import SelectCard from "./_components/SelectCard/SelectCard";
-import SecondVer2 from "./_components/Second_ver2/Second";
+import SelectCardVer2 from "./_components/SelectCard_ver2/SelectCard";
+import SecondVer3 from "./_components/Second_ver3/Second";
 import Third from "./_components/Third/Third";
 
 export default function Page() {
@@ -20,10 +20,11 @@ export default function Page() {
       {/* <Fisrt /> */}
       <FirstVer2 />
       {/* <Second /> */}
-      <SecondVer2 />
+      {/* <SecondVer2 /> */}
+      <SecondVer3 />
       <Third />
       {/* <Fourth /> */}
-      <SelectCard />
+      <SelectCardVer2 />
       {/* <Sixth />
       <Eighth />
       <Fifth /> */}

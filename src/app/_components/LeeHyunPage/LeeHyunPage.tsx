@@ -57,29 +57,16 @@ export default function LeeHyunPage({
               }}
             ></div>
             <div className={styles.leeHyunPage}>
-              {width && width <= 768 && (
-                <div className={styles.closeButton}>
-                  <span
-                    onClick={() => {
-                      setLeeHyunPage(false);
-                    }}
-                  >
-                    CLOSE
-                  </span>
-                </div>
-              )}
+              <div className={styles.closeButton}>
+                <span
+                  onClick={() => {
+                    setLeeHyunPage(false);
+                  }}
+                >
+                  CLOSE
+                </span>
+              </div>
               <div className={styles.left}>
-                {width && width > 768 && (
-                  <div className={styles.top}>
-                    <span
-                      onClick={() => {
-                        setLeeHyunPage(false);
-                      }}
-                    >
-                      CLOSE
-                    </span>
-                  </div>
-                )}
                 <div className={styles.main}>
                   <div className={styles.mainTop}>
                     <span>이현시스템</span>

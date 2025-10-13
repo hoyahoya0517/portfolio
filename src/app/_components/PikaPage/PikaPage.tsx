@@ -57,29 +57,16 @@ export default function PikaPage({
               }}
             ></div>
             <div className={styles.pikaPage}>
-              {width && width <= 768 && (
-                <div className={styles.closeButton}>
-                  <span
-                    onClick={() => {
-                      setPikaPage(false);
-                    }}
-                  >
-                    CLOSE
-                  </span>
-                </div>
-              )}
+              <div className={styles.closeButton}>
+                <span
+                  onClick={() => {
+                    setPikaPage(false);
+                  }}
+                >
+                  CLOSE
+                </span>
+              </div>
               <div className={styles.left}>
-                {width && width > 768 && (
-                  <div className={styles.top}>
-                    <span
-                      onClick={() => {
-                        setPikaPage(false);
-                      }}
-                    >
-                      CLOSE
-                    </span>
-                  </div>
-                )}
                 <div className={styles.main}>
                   <div className={styles.mainTop}>
                     <span>PIKA</span>

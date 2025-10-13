@@ -100,7 +100,7 @@
   }
   .info2 {
     position: relative;
-    left: 0;
+    left: 3px;
     display: flex;
     flex-direction: column;
   }
@@ -111,7 +111,7 @@
     position: relative;
     display: flex;
     top: 0;
-    right: 0;
+    left: 3px;
     display: flex;
     flex-direction: column;
   }

@@ -117,7 +117,7 @@
 
 @media (max-width: 1024px) {
   .iam span {
-    font-size: 80px;
+    font-size: 90px;
   }
 
   .info2 p {
@@ -148,7 +148,7 @@
   }
   .info2 {
     position: relative;
-    left: 0;
+    left: 3px;
     display: flex;
     flex-direction: column;
   }
@@ -159,7 +159,7 @@
     position: relative;
     display: flex;
     top: 0;
-    right: 0;
+    left: 3px;
     display: flex;
     flex-direction: column;
   }

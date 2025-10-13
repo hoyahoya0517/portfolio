@@ -14,6 +14,11 @@
   height: 100%;
   background-color: #25232350;
 }
+@media (max-width: 1024px) {
+  .pika {
+    background-size: 200%;
+  }
+}
 @media (max-width: 768px) {
   .pika {
     background-size: 300%;
