@@ -7,7 +7,7 @@ export default function Third() {
         <div className={styles.info2}>
           <p>Web Developer</p>
           <p>UI/UX Designer</p>
-          <p>Brand Manager</p>
+          <p>Director</p>
         </div>
         <div className={styles.info3}>
           <p>CONTACT</p>

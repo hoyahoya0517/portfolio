@@ -96,7 +96,7 @@
   .thirdMain {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 12px;
   }
   .info2 {
     position: relative;

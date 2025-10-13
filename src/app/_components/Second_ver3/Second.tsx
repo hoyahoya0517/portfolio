@@ -16,7 +16,7 @@ export default function Second() {
   useMotionValueEvent(scrollYProgress, "change", (latest) => {
     if (latest < 0.2) setIam("개발자");
     else if (latest < 0.5) setIam("디자이너");
-    else if (latest < 0.8) setIam("브랜드매니저");
+    else if (latest < 0.8) setIam("디렉터");
     else if (latest < 1) setIam("이건호");
   });
   useEffect(() => {
