@@ -40,6 +40,10 @@ export default function GtqPage({
                 <span onClick={() => setGtqPage(false)}>CLOSE</span>
               </div>
               <div className={styles.left}>
+                <div
+                  className={styles.background}
+                  onClick={() => setGtqPage(false)}
+                ></div>
                 {isGtq && (
                   <div className={styles.isGtq} onClick={() => setIsGtq(false)}>
                     <div className={styles.isGtqMain}>
@@ -61,6 +65,10 @@ export default function GtqPage({
                 </motion.div>
               </div>
               <div className={styles.center}>
+                <div
+                  className={styles.background}
+                  onClick={() => setGtqPage(false)}
+                ></div>
                 {isGtqI && (
                   <div
                     className={styles.isGtqI}
@@ -85,6 +93,10 @@ export default function GtqPage({
                 </motion.div>
               </div>
               <div className={styles.right}>
+                <div
+                  className={styles.background}
+                  onClick={() => setGtqPage(false)}
+                ></div>
                 {isGoogle && (
                   <div
                     className={styles.isGoogle}

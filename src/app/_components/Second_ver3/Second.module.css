@@ -1,41 +1,29 @@
 .second {
   width: 100%;
-  min-height: 100vh;
+  min-height: 800vh;
   height: auto;
   background-color: #f5f5f7;
   position: relative;
   overflow: hidden;
 }
 .info {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
 }
 .iam {
   width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  position: relative;
+  gap: 24px;
 }
 .iam span {
   font-size: 120px;
   white-space: nowrap;
-}
-.pinContainer {
-  position: relative;
-  display: flex;
-}
-.pinWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  white-space: nowrap;
-  width: 400vw;
-}
-.pinText {
-  width: 100vw;
+  line-height: 1;
+  display: inline-block;
 }
 
 @media (max-width: 1024px) {

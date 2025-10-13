@@ -23,11 +23,11 @@
 //     handleResize();
 //     return () => window.removeEventListener("resize", handleResize);
 //   }, []);
-//   // useEffect(() => {
-//   //   if (spanRef.current) {
-//   //     setSpanHeight(spanRef.current.clientHeight);
-//   //   }
-//   // }, [spanRef]);
+//   useEffect(() => {
+//     if (spanRef.current) {
+//       setSpanHeight(spanRef.current.clientHeight);
+//     }
+//   }, [spanRef]);
 //   gsap.registerPlugin(ScrollTrigger);
 //   useGSAP(() => {
 //     const tl = gsap.timeline({

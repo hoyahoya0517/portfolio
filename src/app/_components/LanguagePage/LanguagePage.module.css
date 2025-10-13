@@ -23,12 +23,24 @@
   cursor: pointer;
   color: white;
 }
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 3333;
+  cursor: pointer;
+}
 .left {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+.opicLogo {
+  position: relative;
+  z-index: 4444;
 }
 .opicLogo img {
   height: 100px;
@@ -46,6 +58,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 5555;
 }
 .isOpicMain {
   display: flex;
@@ -69,6 +82,10 @@
   align-items: center;
   position: relative;
 }
+.jlptLogo {
+  position: relative;
+  z-index: 4444;
+}
 .jlptLogo img {
   height: 100px;
   object-fit: contain;
@@ -86,6 +103,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 5555;
 }
 .isJlptMain {
   display: flex;

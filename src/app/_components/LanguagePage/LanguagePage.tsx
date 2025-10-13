@@ -38,6 +38,10 @@ export default function LanguagePage({
                 <span onClick={() => setLanguagePage(false)}>CLOSE</span>
               </div>
               <div className={styles.left}>
+                <div
+                  className={styles.background}
+                  onClick={() => setLanguagePage(false)}
+                ></div>
                 {isOpic && (
                   <div
                     className={styles.isOpic}
@@ -62,6 +66,10 @@ export default function LanguagePage({
                 </motion.div>
               </div>
               <div className={styles.right}>
+                <div
+                  className={styles.background}
+                  onClick={() => setLanguagePage(false)}
+                ></div>
                 {isJlpt && (
                   <div
                     className={styles.isJlpt}
