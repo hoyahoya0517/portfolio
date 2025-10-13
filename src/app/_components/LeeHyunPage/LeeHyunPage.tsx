@@ -55,6 +55,15 @@ export default function LeeHyunPage({
               onClick={() => {
                 setLeeHyunPage(false);
               }}
+              onTouchStart={() => {
+                setLeeHyunPage(false);
+              }}
+              onTouchEnd={() => {
+                setLeeHyunPage(false);
+              }}
+              onScroll={() => {
+                setLeeHyunPage(false);
+              }}
             ></div>
             <div className={styles.leeHyunPage}>
               <div className={styles.closeButton}>

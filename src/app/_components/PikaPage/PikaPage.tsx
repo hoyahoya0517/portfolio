@@ -55,6 +55,15 @@ export default function PikaPage({
               onClick={() => {
                 setPikaPage(false);
               }}
+              onTouchStart={() => {
+                setPikaPage(false);
+              }}
+              onTouchEnd={() => {
+                setPikaPage(false);
+              }}
+              onScroll={() => {
+                setPikaPage(false);
+              }}
             ></div>
             <div className={styles.pikaPage}>
               <div className={styles.closeButton}>
