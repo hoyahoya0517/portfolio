@@ -55,6 +55,15 @@ export default function StarSprayPage({
               onClick={() => {
                 setStarSprayPage(false);
               }}
+              onTouchStart={() => {
+                setStarSprayPage(false);
+              }}
+              onTouchEnd={() => {
+                setStarSprayPage(false);
+              }}
+              onScroll={() => {
+                setStarSprayPage(false);
+              }}
             ></div>
             <div className={styles.starSprayPage}>
               <div className={styles.closeButton}>

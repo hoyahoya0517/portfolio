@@ -22,6 +22,13 @@ export default function Third() {
             <span>LeeGeonHo</span>
             <span>LeeGeonHo</span>
             <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
+            <span>LeeGeonHo</span>
           </div>
         </div>
         <div className={styles.image}>
