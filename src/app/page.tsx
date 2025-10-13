@@ -12,6 +12,7 @@ import Footer from "./_components/Footer/Footer";
 import styles from "./page.module.css";
 import SelectCard from "./_components/SelectCard/SelectCard";
 import SecondVer2 from "./_components/Second_ver2/Second";
+import Third from "./_components/Third/Third";
 
 export default function Page() {
   return (
@@ -20,7 +21,7 @@ export default function Page() {
       <FirstVer2 />
       {/* <Second /> */}
       <SecondVer2 />
-      {/* <Third /> */}
+      <Third />
       {/* <Fourth /> */}
       <SelectCard />
       {/* <Sixth />

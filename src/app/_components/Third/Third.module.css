@@ -1,50 +1,9 @@
-.second {
+.third {
   width: 100%;
-  min-height: 100vh;
-  height: auto;
-  background-color: #f5f5f7;
-  position: relative;
+  height: 100vh;
   overflow: hidden;
 }
-.info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.iam {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.iam span {
-  font-size: 120px;
-  white-space: nowrap;
-}
-.pinContainer {
-  position: relative;
-  display: flex;
-}
-.pinWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  white-space: nowrap;
-  width: 400vw;
-}
-.pinText {
-  width: 100vw;
-}
-.otherSection {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-.otherSectionMain {
+.thirdMain {
   width: 100%;
   height: 100%;
   background-color: #eeeeee;
@@ -116,10 +75,6 @@
 }
 
 @media (max-width: 1024px) {
-  .iam span {
-    font-size: 80px;
-  }
-
   .info2 p {
     font-size: 60px;
   }
@@ -138,10 +93,7 @@
 }
 
 @media (max-width: 768px) {
-  .iam span {
-    font-size: 60px;
-  }
-  .otherSectionMain {
+  .thirdMain {
     display: flex;
     flex-direction: column;
     gap: 12px;
