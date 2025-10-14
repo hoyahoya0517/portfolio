@@ -14,6 +14,11 @@
   height: 100%;
   background-color: #25232350;
 }
+@media (max-width: 1024px) {
+  .starSpray {
+    background-size: 24%;
+  }
+}
 @media (max-width: 768px) {
   .starSpray {
     background-size: 56%;
