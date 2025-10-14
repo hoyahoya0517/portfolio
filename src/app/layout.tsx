@@ -5,8 +5,8 @@ import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Lee GeonHo | Portfolio",
-  description: "Lee GeonHo Portfolio",
+  title: "이건호 포트폴리오",
+  description: "이건호 포트폴리오",
 };
 
 const font = Noto_Sans_KR({
@@ -58,6 +58,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <link rel="icon" href="/images/favicon.ico" sizes="48x48" />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/images/apple-icon.png"
+      />
       <body className={`${sfPro.className} ${font.className}`}>
         {children}
         <Analytics />
