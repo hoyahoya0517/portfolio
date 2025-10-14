@@ -8,9 +8,8 @@
 }
 .info {
   position: fixed;
-  top: 50%;
+  top: 50vh;
   left: 50%;
-  transform: translate(0, -50%);
 }
 .iam {
   width: 100%;
